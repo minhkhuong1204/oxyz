@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #444;
+}
+#puzzleArea {
+    width: 240px;
+    height: 240px;
+    border: 2px solid #333;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding: 2px;
+    background-color: #fff;
+}
+.puzzle-piece {
+    width: 78px;
+    height: 78px;
+    background-size: 240px 240px;
+    cursor: move;
+    transition: transform 0.2s;
+}
+.puzzle-piece:hover {
+    transform: scale(1.05);
+}
+#message {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+#hintArea {
+    margin: 10px auto;
+}
+#hintImage {
+    width: 240px;
+    height: 240px;
+    border: 2px dashed #333;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
+a {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #444;
+}
+#gameArea {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    width: 500px;
+}
+#imageDisplay, #currentGuess, #options {
+    margin: 10px 0;
+    min-height: 60px;
+}
+#imageDisplay img, #currentGuess img, #options img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+}
+#options img:hover {
+    opacity: 0.8;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+a {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}

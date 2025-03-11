@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Sequence</title>
+    <link rel="stylesheet" href="game6.css">
+</head>
+
+<body>
+    <h2>Memory Sequence</h2>
+    <div id="gameArea">
+        <div id="imageDisplay"></div>
+        <div id="guessArea" style="display: none;">
+            <p>Guess the sequence (Attempts left: <span id="attempts">5</span>)</p>
+            <div id="currentGuess"></div>
+            <div id="options"></div>
+        </div>
+        <button id="startButton" onclick="startRound()">Start</button>
+    </div>
+    <p>Score: <span id="score">0</span></p>
+    <a href="../../index.html">Back to Menu</a>
+    <script src="game6.js"></script>
+</body>
+
+</html>
